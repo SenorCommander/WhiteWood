@@ -1,0 +1,44 @@
+- type: entity
+  name: mk 32
+  parent: [BaseWeaponPistol, BaseRestrictedContraband]
+  id: WeaponPistolMk32
+  description: The sidearm of any self respecting officer.     Comes in .45 magnum, the lord's caliber.
+  components:
+  - type: Sprite
+    sprite: Fractions\Objects\Weapons\Guns\Pistols\mk32.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: Fractions\Objects\Weapons\Guns\Pistols\mk32.rsi
+  - type: Gun
+    minAngle: 1
+    maxAngle: 19
+    angleIncrease: 7
+    angleDecay: 8
+    fireRate: 3
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMagnum
+        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineMagnum
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeMagnum
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeMagnum

@@ -52,3 +52,14 @@
       sprite: Fractions/Clothing/German/Head/Hats/officer_grey.rsi
     - type: Clothing
       sprite: Fractions/Clothing/German/Head/Hats/officer_grey.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadCapSschutze
+  name: немецкая полевая пилотка
+  description: Основной полевой головной убор немецких солдат и офицеров. Подобную пилотку обычно носят военнослужащие унтер-офицерских рангов.
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/German/Head/Hats/schutze_green.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/German/Head/Hats/schutze_green.rsi
