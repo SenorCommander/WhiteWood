@@ -1,0 +1,32 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadCapOfficer
+  name: офицерская фуражка КМП-ОПЗ
+  description: Кепка с козырьком. Владелец может ощутить на своей голове и плечах тяжелый груз ответственности.
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/UGE/Head/Hats/officer.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/UGE/Head/Hats/officer.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadCapOfficerWhite
+  name: офицерская фуражка КМП-ОПЗ
+  description: Кепка с козырьком. Владелец может ощутить на своей голове и плечах тяжелый груз ответственности.
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/UGE/Head/Hats/officer_white.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/UGE/Head/Hats/officer_white.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadCapOfficerGeneral
+  name: генеральская фуражка КМП-ОПЗ
+  description: Специальная фуражка высших чинов с золотой гравировкой ̶N̶a̶n̶o̶T̶r̶a̶s̶e̶n̶ ОПЗ, которая уже давно пережила не один блицкриг...
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/UGE/Head/Hats/general.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/UGE/Head/Hats/general.rsi

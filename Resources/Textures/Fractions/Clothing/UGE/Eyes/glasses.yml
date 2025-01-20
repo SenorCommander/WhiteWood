@@ -1,0 +1,14 @@
+- type: entity
+  parent: ClothingEyesBase
+  id: RMCGogglesBallistic
+  name: баллистические защитные очки КМП-ОПЗ
+  description: Защитные очки стандартного выпуска UNMC. Хотя их обычно надевают поверх шлемов модели M10, они также способны предотвращать попадание насекомых, пыли и других предметов в глаза.
+  components:
+  - type: Sprite
+    sprite: Fractions/Clothing/UGE/Eyes/Glasses/ballistic_goggles.rsi
+  - type: Clothing
+    sprite: Fractions/Clothing/UGE/Eyes/Glasses/ballistic_goggles.rsi
+    slots:
+    - MASK
+    - EYES
+  - type: ShowJobIcons

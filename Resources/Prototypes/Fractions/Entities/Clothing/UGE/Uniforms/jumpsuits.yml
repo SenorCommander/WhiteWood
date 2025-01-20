@@ -1,0 +1,174 @@
+#Форма Слов
+
+- type: entity
+  parent: ClothingUniformBase
+  id: CMJumpsuitSquadLeaderAlpha
+  name: комбинезон командира отряда Альфы КМП-ОПЗ
+  description: униформа сержантов морской пехоты с кевларовым переплетением, испытанная химическими веществами и усиленная электромагнитным излучением.
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/squad_leader/Alpha.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/squad_leader/Alpha.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: CMJumpsuitSquadLeaderBravo
+  name: комбинезон командира отряда Браво КМП-ОПЗ
+  description: униформа сержантов морской пехоты с кевларовым переплетением, испытанная химическими веществами и усиленная электромагнитным излучением.
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/squad_leader/Bravo.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/squad_leader/Bravo.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: CMJumpsuitSquadLeaderDelta
+  name: комбинезон командира отряда Дельты КМП-ОПЗ
+  description: униформа сержантов морской пехоты с кевларовым переплетением, испытанная химическими веществами и усиленная электромагнитным излучением.
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/squad_leader/Delta.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/squad_leader/Delta.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: CMJumpsuitSquadLeaderCharlie
+  name: комбинезон командира отряда Чарли КМП-ОПЗ
+  description: униформа сержантов морской пехоты с кевларовым переплетением, испытанная химическими веществами и усиленная электромагнитным излучением.
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/squad_leader/Charlie.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/squad_leader/Charlie.rsi
+
+#Форма Морпехов
+
+- type: entity
+  parent: ClothingUniformBase
+  id: CMJumpsuitMarineAlpha
+  name: комбинезон отряда Альфы КМП-ОПЗ
+  description: униформа сержантов морской пехоты с кевларовым переплетением, испытанная химическими веществами и усиленная электромагнитным излучением.
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/standard/Alpha.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/standard/Alpha.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: CMJumpsuitMarineBravo
+  name: комбинезон отряда Браво КМП-ОПЗ
+  description: униформа сержантов морской пехоты с кевларовым переплетением, испытанная химическими веществами и усиленная электромагнитным излучением.
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/standard/Bravo.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/standard/Bravo.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: CMJumpsuitMarineDelta
+  name: комбинезон отряда Дельты КМП-ОПЗ
+  description: униформа сержантов морской пехоты с кевларовым переплетением, испытанная химическими веществами и усиленная электромагнитным излучением.
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/standard/Delta.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/standard/Delta.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: CMJumpsuitMarineCharlie
+  name: комбинезон отряда Чарли КМП-ОПЗ
+  description: униформа сержантов морской пехоты с кевларовым переплетением, испытанная химическими веществами и усиленная электромагнитным излучением.
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/standard/Charlie.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/standard/Charlie.rsi
+
+#Форма Специалистов
+
+#Форма Офицеров
+
+- type: entity
+  parent: ClothingUniformBase
+  id: CMJumpsuitGeneral
+  name: генеральская форма КМП-ОПЗ
+  description: Форма, которую носит генерал. Она выполнена в темно-черном цвете с легким мерцанием. Ткань на вид достаточно прочная, чтобы обеспечить легкую защиту.
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/general.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/general.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: CMJumpsuitFieldСommander
+  name: комбинезон полевого командира КМП-ОПЗ
+  description: униформа офицеров морской пехоты с кевларовым переплетением, испытанная химическими веществами и усиленная электромагнитным излучением.
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/field_commander.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/field_commander.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: CMJumpsuitService
+  name: штабная форма КМП-ОПЗ
+  description: Стандартная форма сотрудника штаба.
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/service.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/service.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: CMJumpsuitOperations
+  name: полевая форма КМП-ОПЗ
+  description: Оперативная форма. Корпус гордится своей формой. В ней есть элементы из легкого кевлара, которые защищают от колющего оружия и пуль.
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/operations.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/operations.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: CMJumpsuitOfficerwhite
+  name: офицерская форма КМП-ОПЗ
+  description: Стандартная форма офицерского состава.
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/officer_white.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/officer_white.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: CMJumpsuitOfficer
+  name: офицерская форма КМП-ОПЗ
+  description: Стандартная форма офицерского состава.
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/officer.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/officer.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: CMJumpsuitOfficerFormal
+  name: офицерская парадная форма КМП-ОПЗ
+  description: Парадная форма офицерского состава.
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/officer_formal.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/officer_formal.rsi
+
+

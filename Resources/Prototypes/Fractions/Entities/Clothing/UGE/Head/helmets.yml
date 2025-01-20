@@ -1,0 +1,98 @@
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetM10
+  name: шлем M10 КМП-ОПЗ
+  description: Стандартный шлем модели M10. На внутренней этикетке вместе с информацией о стирке указано, "Разница между похоронами в открытом гробу и в закрытом гробу. Для достижения наилучших результатов надевайте шлем на голову".
+  components:
+  - type: Sprite
+    sprite: Fractions/Clothing/UGE/Head/Helmets/m10_standard.rsi
+  - type: Clothing
+    sprite: Fractions/Clothing/UGE/Head/Helmets/m10_standard.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetM10Medic
+  name: шлем военного медика M-10 КМП-ОПЗ
+  description: Специальный вариант шлема образца М10, который носят медики морской пехоты.
+  components:
+  - type: Sprite
+    sprite: Fractions/Clothing/UGE/Head/Helmets/m10_med.rsi
+  - type: Clothing
+    sprite: Fractions/Clothing/UGE/Head/Helmets/m10_med.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetM10Tech
+  name: шлем техника M-10 КМП-ОПЗ
+  description: Специальный вариант шлема образца М10, который носят инженерные подразделения морской пехоты.
+  components:
+  - type: Sprite
+    sprite: Fractions/Clothing/UGE/Head/Helmets/m10_tech.rsi
+  - type: Clothing
+    sprite: Fractions/Clothing/UGE/Head/Helmets/m10_tech.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetM11Leader
+  name: шлем лидера M-11 КМП-ОПЗ
+  description: Немного более модный шлем для сержантов морской пехоты. Этот шлем оснащен амортизацией для защиты вашего хрупкого мозга.
+  components:
+  - type: Sprite
+    sprite: Fractions/Clothing/UGE/Head/Helmets/m11_leader.rsi
+  - type: Clothing
+    sprite: Fractions/Clothing/UGE/Head/Helmets/m11_leader.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetM35
+  name: штурмовой шлем M-35 КМП-ОПЗ
+  description: Изготовленный на заказ шлем из серии M3, разработанный таким образом, чтобы обладать высокими защитными показателями.
+  components:
+  - type: Sprite
+    sprite: Fractions/Clothing/UGE/Head/Helmets/m35.rsi
+  - type: Clothing
+    sprite: Fractions/Clothing/UGE/Head/Helmets/m35.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetM45
+  name: камуфляжный шлем M-45 КМП-ОПЗ
+  description: Легкий шлем M45 с капюшоном, используемый снайперами морской пехоты в разведывательных миссиях.
+  components:
+  - type: Sprite
+    sprite: Fractions/Clothing/UGE/Head/Helmets/m45_spec.rsi
+  - type: Clothing
+    sprite: Fractions/Clothing/UGE/Head/Helmets/m45_spec.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetM10Officer
+  name: офицерский шлем M-10 КМП-ОПЗ
+  description: Особый вариант шлема модели M10, который носят офицеры, привлекающий внимание как пехотинцев, так и снайперов.
+  components:
+  - type: Sprite
+    sprite: Fractions/Clothing/UGE/Head/Helmets/officer.rsi
+  - type: Clothing
+    sprite: Fractions/Clothing/UGE/Head/Helmets/officer.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetM10OfficerBlack
+  name: офицерский шлем M-10 КМП-ОПЗ
+  description: Особый вариант шлема модели M10, который носят офицеры более высокого ранга, привлекающий внимание как пехотинцев, так и снайперов.
+  components:
+  - type: Sprite
+    sprite: Fractions/Clothing/UGE/Head/Helmets/officer_black.rsi
+  - type: Clothing
+    sprite: Fractions/Clothing/UGE/Head/Helmets/officer_black.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetM3Scout
+  name: шлем M3-S КМП-ОПЗ
+  description: Изготовленный на заказ шлем из серии M3, разработанный таким образом, чтобы быть легким и использоваться для разведывательных миссий.
+  components:
+  - type: Sprite
+    sprite: Fractions/Clothing/UGE/Head/Helmets/m3_scout.rsi
+  - type: Clothing
+    sprite: Fractions/Clothing/UGE/Head/Helmets/m3_scout.rsi
