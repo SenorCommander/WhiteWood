@@ -140,7 +140,7 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: CMJumpsuitOfficerwhite
+  id: CMJumpsuitOfficerWhite
   name: офицерская форма КМП-ОПЗ
   description: Стандартная форма офицерского состава.
   components:

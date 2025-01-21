@@ -1,0 +1,137 @@
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: RMCBeltHolsterPistol
+  name: кобура M276 КМП-ОПЗ
+  description: M276 входит в стандартную комплектацию. Он состоит из модульного ремня с различными зажимами. Эта версия имеет кобуру в сборе, которая позволяет носить самые распространенные пистолеты и револьверы. В ней также есть боковые подсумки для хранения большинства пистолетных магазинов.
+  components:
+  - type: Sprite
+    sprite: Fractions/Clothing/UGE/Belt/holster_pistol.rsi
+  - type: Clothing
+    sprite: Fractions/Clothing/UGE/Belt/holster_pistol.rsi
+  - type: Storage
+    whitelist:
+      tags:
+        - CigPack
+        - Taser
+      components:
+        - BallisticAmmoProvider
+        - Ammo
+    maxItemSize: Normal
+    grid:
+    - 0,0,5,1
+  - type: ItemSlots
+    slots:
+      item:
+        name: Holster
+        whitelist:
+          tags:
+          - Sidearm
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: RMCBeltHolsterRevolver
+  name: кобура M276 КМП-ОПЗ
+  description: M276 входит в стандартную комплектацию. Он состоит из модульного ремня с различными зажимами. Эта версия универсальна и подходит для различных револьверов и пистолетов, а также шести небольших подсумков для быстрого заряжания. Он слегка пахнет сеном.
+  components:
+  - type: Sprite
+    sprite: Fractions/Clothing/UGE/Belt/holster_revolver.rsi
+  - type: Clothing
+    sprite: Fractions/Clothing/UGE/Belt/holster_revolver.rsi
+  - type: Storage
+    whitelist:
+      tags:
+        - CigPack
+        - Taser
+      components:
+        - BallisticAmmoProvider
+        - Ammo
+    maxItemSize: Normal
+    grid:
+    - 0,0,5,1
+  - type: ItemSlots
+    slots:
+      item:
+        name: Holster
+        whitelist:
+          tags:
+          - Sidearm
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: CMBeltMarine
+  name: патронташ для боеприпасов КМП-ОПЗ
+  description: M276 является стандартным снаряжением морпеха. Он состоит из модульного ремня с различными зажимами. Это стандартный вариант, предназначенный для операций по перевозке массовых боеприпасов.
+  components:
+  - type: Sprite
+    sprite: Fractions/Clothing/UGE/Belt/marine.rsi
+  - type: Clothing
+    sprite: Fractions/Clothing/UGE/Belt/marine.rsi
+  - type: Storage
+    whitelist:
+      tags:
+        - CigPack
+        - Taser
+      components:
+        - Stunbaton
+        - FlashOnTrigger
+        - SmokeOnTrigger
+        - Flash
+        - Handcuff
+        - BallisticAmmoProvider
+        - Ammo
+  - type: ItemMapper
+    mapLayers:
+      flashbang:
+        whitelist:
+          components:
+          - FlashOnTrigger
+      stunbaton:
+        whitelist:
+          components:
+          - Stunbaton
+      tear_gas_grenade:
+        whitelist:
+          components:
+          - SmokeOnTrigger
+    sprite: Clothing/Belt/belt_overlay.rsi
+  - type: Appearance
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: CMBeltMarineBlack
+  name: патронташ для боеприпасов КМП-ОПЗ
+  description: M276 является стандартным снаряжением морпеха. Он состоит из модульного ремня с различными зажимами. Это стандартный вариант, предназначенный для операций по перевозке массовых боеприпасов.
+  components:
+  - type: Sprite
+    sprite: Fractions/Clothing/UGE/Belt/marine_black.rsi
+  - type: Clothing
+    sprite: Fractions/Clothing/UGE/Belt/marine_black.rsi
+  - type: Storage
+    whitelist:
+      tags:
+        - CigPack
+        - Taser
+      components:
+        - Stunbaton
+        - FlashOnTrigger
+        - SmokeOnTrigger
+        - Flash
+        - Handcuff
+        - BallisticAmmoProvider
+        - Ammo
+  - type: ItemMapper
+    mapLayers:
+      flashbang:
+        whitelist:
+          components:
+          - FlashOnTrigger
+      stunbaton:
+        whitelist:
+          components:
+          - Stunbaton
+      tear_gas_grenade:
+        whitelist:
+          components:
+          - SmokeOnTrigger
+    sprite: Clothing/Belt/belt_overlay.rsi
+  - type: Appearance
