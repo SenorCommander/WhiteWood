@@ -30,7 +30,7 @@
 - type: entity
   parent: ClothingMaskPullableBase
   id: CMMaskGasFieldСommander
-  name: противогаз полевого командира КМП-ОПЗ
+  name: противогаз полевого командира ОПЗ
   description: Закрывающая лицо маска, которую можно подключить к системе подачи воздуха. Очищает воздух от вредных газов.
   components:
   - type: Sprite

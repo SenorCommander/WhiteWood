@@ -1,7 +1,7 @@
 - type: entity
   parent: [ClothingEyesBase, BaseCommandContraband]
-  id: ClothingEyesGlassesSmartBallistic
-  name: баллистические очки мобильной оперативной группы
+  id: ClothingEyesGlassesSmartBallisticSCP
+  name: визор мобильной оперативной группы
   description: Усовершенствованные баллистическиее очки, которые обеспечивают защиту и выводят информацию о класе и уровне доступа персонала.
   components:
   - type: Sprite

@@ -72,14 +72,14 @@
 
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
-  id: CMArmorM4
+  id: CMArmorM3SPEC
   name: броня M3-SPEC КМП-ОПЗ
   description: Серьезная модификация стандартной брони M3. Выполнен в приятных зеленых тонах. Защищает грудь от баллистических пуль, предметов с холодным оружием и несчастных случаев. До краев наполненный прокладками, покрытием и всеми видами баллистической защиты.
   components:
   - type: Sprite
-    sprite: Fractions/Clothing/UGE/OuterClothing/Armor/M4.rsi
+    sprite: Fractions/Clothing/UGE/OuterClothing/Armor/spec.rsi
   - type: Clothing
-    sprite: Fractions/Clothing/UGE/OuterClothing/Armor/M4.rsi
+    sprite: Fractions/Clothing/UGE/OuterClothing/Armor/spec.rsi
   - type: Armor #Based on /tg/ but slightly compensated to fit the fact that armor stacks in SS14.
     modifiers:
       coefficients:
@@ -93,6 +93,54 @@
   - type: ClothingSpeedModifier
     walkModifier: 0.720
     sprintModifier: 0.720
+
+- type: entity
+  parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
+  id: CMArmorGhilleM45
+  name: камуфляжная броня M-45 КМП-ОПЗ
+  description: Легкий маскировочный костюм ghillie, используемый снайперами UNCONC в разведывательных миссиях. Очень легкий, но практически не защищает.
+  components:
+  - type: Sprite
+    sprite: Fractions/Clothing/UGE/OuterClothing/Armor/ghille.rsi
+  - type: Clothing
+    sprite: Fractions/Clothing/UGE/OuterClothing/Armor/ghille.rsi
+  - type: Armor #Based on /tg/ but slightly compensated to fit the fact that armor stacks in SS14.
+    modifiers:
+      coefficients:
+        Blunt: 0.60
+        Slash: 0.40
+        Piercing: 0.60
+        Heat: 0.50
+        Caustic: 0.60
+  - type: ExplosionResistance
+    damageCoefficient: 0.80
+  - type: ClothingSpeedModifier
+    walkModifier: .780
+    sprintModifier: .780
+
+- type: entity
+  parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
+  id: CMArmorM4
+  name: броня M4 КМП-ОПЗ
+  description: Изготовленный на заказ комплект брони и тщательно продуманный гибрид брони. Прочный, но в то же время маневренный.
+  components:
+  - type: Sprite
+    sprite: Fractions/Clothing/UGE/OuterClothing/Armor/m4.rsi
+  - type: Clothing
+    sprite: Fractions/Clothing/UGE/OuterClothing/Armor/m4.rsi
+  - type: Armor #Based on /tg/ but slightly compensated to fit the fact that armor stacks in SS14.
+    modifiers:
+      coefficients:
+        Blunt: 0.38
+        Slash: 0.38
+        Piercing: 0.38
+        Heat: 0.46
+        Caustic: 0.38
+  - type: ExplosionResistance
+    damageCoefficient: 0.40
+  - type: ClothingSpeedModifier
+    walkModifier: 0.740
+    sprintModifier: 0.740
 
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
@@ -115,8 +163,8 @@
   - type: ExplosionResistance
     damageCoefficient: 0.45
   - type: ClothingSpeedModifier
-    walkModifier: 0.720
-    sprintModifier: 0.720
+    walkModifier: 0.740
+    sprintModifier: 0.740
 
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
@@ -139,14 +187,14 @@
   - type: ExplosionResistance
     damageCoefficient: 0.45
   - type: ClothingSpeedModifier
-    walkModifier: 0.720
-    sprintModifier: 0.720
+    walkModifier: 0.770
+    sprintModifier: 0.770
 
 
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
   id: CMArmorField_commander
-  name: броня полевого командира КМП-ОПЗ
+  name: броня полевого командира ОПЗ
   description: Изготовленный на заказ комплект специальный комплект брони. Разработан специально для высокопоставленных офицеров, сотрудников службы безопасности и корпоративных наемников. Этот костюм выглядит так, как будто принадлежит офицеру высокого ранга.
   components:
   - type: Sprite

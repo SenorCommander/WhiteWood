@@ -45,7 +45,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadCapFieldCommander
-  name: берет полевого командира КМП-ОПЗ
+  name: берет полевого командира ОПЗ
   description: Темно-синий берет с офицерской кокардой. Синий цвет берета символизирует верность, уверенность и политическую позицию - основные качества настоящего полевого командира.
   components:
     - type: Sprite
@@ -56,7 +56,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadBeretColonel
-  name: берет полковника КМП-ОПЗ
+  name: берет полковника ОПЗ
   description: Голубой берет с эмблемой полковника. Синий цвет берета символизирует верность, уверенность и политическую позицию - основные качества настоящего полковника.
   components:
     - type: Sprite
@@ -67,7 +67,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadBeretOfficerWhite
-  name: офицерский берет КМП-ОПЗ
+  name: офицерский берет ОПЗ
   description: Белый берет офицерской кокардой. Его ослепительно белый цвет подчеркивает силу и класс.
   components:
     - type: Sprite
@@ -78,7 +78,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadBereOfficer
-  name: офицерский берет КМП-ОПЗ
+  name: офицерский берет ОПЗ
   description: Чёрный берет офицерской кокардой. Его элегантный черный цвет подчеркивает силу и класс.
   components:
     - type: Sprite

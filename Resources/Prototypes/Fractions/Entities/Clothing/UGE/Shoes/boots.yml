@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingShoesMilitaryBase
   id: CMBootsBlack
-  name: боевые ботинки морской пехоты КМП-ОПЗ
+  name: боевые ботинки ОПЗ
   description: Модифицированная пара армейских ботинок, в том числе с несколькими урезанными участками и подкладкой из ткани и какой-то разновидности кожи.
   components:
     - type: Sprite

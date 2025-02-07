@@ -59,7 +59,7 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: CMBeltMarine
-  name: патронташ для боеприпасов КМП-ОПЗ
+  name: патронташ для боеприпасов ОПЗ
   description: M276 является стандартным снаряжением морпеха. Он состоит из модульного ремня с различными зажимами. Это стандартный вариант, предназначенный для операций по перевозке массовых боеприпасов.
   components:
   - type: Sprite
@@ -99,7 +99,7 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: CMBeltMarineBlack
-  name: патронташ для боеприпасов КМП-ОПЗ
+  name: патронташ для боеприпасов ОПЗ
   description: M276 является стандартным снаряжением морпеха. Он состоит из модульного ремня с различными зажимами. Это стандартный вариант, предназначенный для операций по перевозке массовых боеприпасов.
   components:
   - type: Sprite
@@ -134,4 +134,36 @@
           components:
           - SmokeOnTrigger
     sprite: Clothing/Belt/belt_overlay.rsi
+  - type: Appearance
+
+- type: entity
+  parent: [ClothingBeltBase, ClothingSlotBase]
+  id: CMBeltSheath
+  name: рапирные ножны
+  description: Богато украшенные ножны, предназначенные для хранения офицерского клинка.
+  components:
+  - type: Sprite
+    sprite: Fractions/Clothing/UGE/Belt/sheath.rsi
+    state: sheath
+  - type: Clothing
+    sprite: Fractions/Clothing/UGE/Belt/sheath.rsi
+  - type: Item
+    size: Ginormous
+  - type: ItemSlots
+    slots:
+      item:
+        name: Sabre
+        insertVerbText: sheath-insert-verb
+        ejectVerbText: sheath-eject-verb
+        insertSound: /Audio/Items/sheath.ogg
+        ejectSound: /Audio/Items/unsheath.ogg
+        whitelist:
+          tags:
+          - CaptainSabre
+  - type: ItemMapper
+    mapLayers:
+      sheath-sabre:
+        whitelist:
+          tags:
+          - CaptainSabre
   - type: Appearance

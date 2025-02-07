@@ -1,0 +1,28 @@
+- type: entity
+  id: CMBase10X24mm
+  name: патрон (10x24mm)
+  parent: [ BaseCartridge, BaseRestrictedContraband ]
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+      - Cartridge
+      - CartridgeRifle
+  - type: CartridgeAmmo
+    proto: BulletRifle
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+
+- type: entity
+  id: CMCartridge10X24mm
+  name: патрон (10x24mm)
+  parent: CMBase10X24mm
+  components:
+  - type: CartridgeAmmo
+    proto: BulletRifle
+

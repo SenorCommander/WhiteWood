@@ -1,0 +1,48 @@
+# Empty mags
+- type: entity
+  id: CMBaseMagazine10X24mm
+  name: "магазин (10x24mm)"
+  parent: [ BaseItem, BaseRestrictedContraband ]
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+      - MagazineRifle
+  - type: Item
+    size: Small
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - CartridgeRifle
+    capacity: 40
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+  - type: Sprite
+    sprite: Fractions/Objects/Weapons/Guns/UGE/Ammunition/Magazine/m41a2.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+# Magazines
+- type: entity
+  id: CMMagazine10X24mm
+  name: "магазин (10x24mm)"
+  parent: CMBaseMagazine10X24mm
+  components:
+  - type: BallisticAmmoProvider
+    proto: CMCartridge10X24mm
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]

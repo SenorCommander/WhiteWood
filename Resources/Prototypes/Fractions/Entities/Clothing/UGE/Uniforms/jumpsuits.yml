@@ -97,7 +97,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: CMJumpsuitGeneral
-  name: генеральская форма КМП-ОПЗ
+  name: генеральская форма ОПЗ
   description: Форма, которую носит генерал. Она выполнена в темно-черном цвете с легким мерцанием. Ткань на вид достаточно прочная, чтобы обеспечить легкую защиту.
   components:
     - type: Sprite
@@ -108,7 +108,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: CMJumpsuitFieldСommander
-  name: комбинезон полевого командира КМП-ОПЗ
+  name: комбинезон полевого командира ОПЗ
   description: униформа офицеров морской пехоты с кевларовым переплетением, испытанная химическими веществами и усиленная электромагнитным излучением.
   components:
     - type: Sprite
@@ -119,7 +119,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: CMJumpsuitService
-  name: штабная форма КМП-ОПЗ
+  name: штабная форма ОПЗ
   description: Стандартная форма сотрудника штаба.
   components:
     - type: Sprite
@@ -130,7 +130,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: CMJumpsuitOperations
-  name: полевая форма КМП-ОПЗ
+  name: полевая форма ОПЗ
   description: Оперативная форма. Корпус гордится своей формой. В ней есть элементы из легкого кевлара, которые защищают от колющего оружия и пуль.
   components:
     - type: Sprite
@@ -140,8 +140,19 @@
 
 - type: entity
   parent: ClothingUniformBase
+  id: CMJumpsuitOfficerOperations
+  name: полевая офицерская форма ОПЗ
+  description: Оперативная форма. Корпус гордится своей формой. В ней есть элементы из легкого кевлара, которые защищают от колющего оружия и пуль.
+  components:
+    - type: Sprite
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/officer_operations.rsi
+    - type: Clothing
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/officer_operations.rsi
+
+- type: entity
+  parent: ClothingUniformBase
   id: CMJumpsuitOfficerWhite
-  name: офицерская форма КМП-ОПЗ
+  name: офицерская форма ОПЗ
   description: Стандартная форма офицерского состава.
   components:
     - type: Sprite
@@ -152,7 +163,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: CMJumpsuitOfficer
-  name: офицерская форма КМП-ОПЗ
+  name: офицерская форма ОПЗ
   description: Стандартная форма офицерского состава.
   components:
     - type: Sprite
@@ -163,7 +174,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: CMJumpsuitOfficerFormal
-  name: офицерская парадная форма КМП-ОПЗ
+  name: офицерская парадная форма ОПЗ
   description: Парадная форма офицерского состава.
   components:
     - type: Sprite

@@ -1,6 +1,6 @@
 - type: entity
   parent: [ClothingMaskGas, ]
-  id: ClothingMaskGasFieldleMask
+  id: ClothingMaskGasFieldleMasksSCP
   name: противогаз мобильной оперативной группы
   description: Улучшенная модификация, изготовленная по последним требованиям. Прибор отличается усиленной защитой и высокой эффективностью.
   components:
