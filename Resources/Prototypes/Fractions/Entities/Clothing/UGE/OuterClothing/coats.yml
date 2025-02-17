@@ -1,8 +1,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterArmorHoS]
   id: CMCoatService
-  name: штабной китель ОПЗ
-  description: Служебный китель, который обычно носят сотрудники штаба.
+  name: офицерский китель ОПЗ
+  description: Служебный китель, который обычно носят офицеры.
   components:
   - type: Sprite
     sprite: Fractions/Clothing/UGE/OuterClothing/Coats/service.rsi
@@ -62,9 +62,9 @@
 
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterArmorHoS]
-  id: CMCoatOfficer
+  id: CMCoatSeniorOfficer
   name: офицерский китель ОПЗ
-  description: Служебный китель, который обычно носят офицеры.
+  description: Служебный китель, который обычно носят старшие офицеры.
   components:
   - type: Sprite
     sprite: Fractions/Clothing/UGE/OuterClothing/Coats/officer.rsi
@@ -93,45 +93,14 @@
 
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterArmorHoS]
-  id: CMCoatOfficerWhite
-  name: офицерский китель ОПЗ
-  description: Служебный китель, который обычно носят офицеры.
-  components:
-  - type: Sprite
-    sprite: Fractions/Clothing/UGE/OuterClothing/Coats/officer_white.rsi
-  - type: Clothing
-    sprite: Fractions/Clothing/UGE/OuterClothing/Coats/officer_white.rsi
-  - type: TemperatureProtection
-    heatingCoefficient: 0.1
-    coolingCoefficient: 0.1
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.9
-        Heat: 0.5
-        Caustic: 0.5
-  - type: Food
-    requiresSpecialDigestion: true
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 20
-        reagents:
-        - ReagentId: Fiber
-          Quantity: 20
-
-- type: entity
-  parent: [ClothingOuterStorageBase, ClothingOuterArmorHoS]
-  id: CMCoatOfficerFormal
+  id: CMCoatSeniorOfficerWhite
   name: офицерский парадный китель ОПЗ
-  description: Парадный китель, который обычно носят офицеры.
+  description: Парадный китель, который обычно носят старшие офицеры.
   components:
   - type: Sprite
-    sprite: Fractions/Clothing/UGE/OuterClothing/Coats/officer_formal.rsi
+    sprite: Fractions/Clothing/UGE/OuterClothing/Coats/officer_white.rsi
   - type: Clothing
-    sprite: Fractions/Clothing/UGE/OuterClothing/Coats/officer_formal.rsi
+    sprite: Fractions/Clothing/UGE/OuterClothing/Coats/officer_white.rsi
   - type: TemperatureProtection
     heatingCoefficient: 0.1
     coolingCoefficient: 0.1
@@ -152,3 +121,4 @@
         reagents:
         - ReagentId: Fiber
           Quantity: 20
+

@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadCapService
-  name: штабная фуражка ОПЗ
-  description: Кепка с козырьком.
+  name: офицерская фуражка ОПЗ
+  description: Кепка с козырьком. Владелец может ощутить на своей голове и плечах тяжелый груз ответственности.
   components:
     - type: Sprite
       sprite: Fractions/Clothing/UGE/Head/Hats/service.rsi
@@ -23,7 +23,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadCapOfficerWhite
-  name: офицерская фуражка ОПЗ
+  name: офицерская парадная фуражка ОПЗ
   description: Кепка с козырьком. Владелец может ощутить на своей голове и плечах тяжелый груз ответственности.
   components:
     - type: Sprite

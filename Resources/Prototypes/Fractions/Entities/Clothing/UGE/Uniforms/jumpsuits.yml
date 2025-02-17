@@ -119,8 +119,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: CMJumpsuitService
-  name: штабная форма ОПЗ
-  description: Стандартная форма сотрудника штаба.
+  name: офицерская форма ОПЗ
+  description: Стандартная форма офицерского состава.
   components:
     - type: Sprite
       sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/service.rsi
@@ -151,20 +151,9 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: CMJumpsuitOfficerWhite
+  id: CMJumpsuitSeniorOfficer
   name: офицерская форма ОПЗ
-  description: Стандартная форма офицерского состава.
-  components:
-    - type: Sprite
-      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/officer_white.rsi
-    - type: Clothing
-      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/officer_white.rsi
-
-- type: entity
-  parent: ClothingUniformBase
-  id: CMJumpsuitOfficer
-  name: офицерская форма ОПЗ
-  description: Стандартная форма офицерского состава.
+  description: Стандартная форма старшего офицерского состава.
   components:
     - type: Sprite
       sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/officer.rsi
@@ -173,13 +162,13 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: CMJumpsuitOfficerFormal
+  id: CMJumpsuitSeniorOfficerWhite
   name: офицерская парадная форма ОПЗ
-  description: Парадная форма офицерского состава.
+  description: Парадная форма старшего офицерского состава.
   components:
     - type: Sprite
-      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/officer_formal.rsi
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/officer_white.rsi
     - type: Clothing
-      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/officer_formal.rsi
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/officer_white.rsi
 
 

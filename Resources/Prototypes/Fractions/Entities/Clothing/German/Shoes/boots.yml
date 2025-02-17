@@ -8,4 +8,5 @@
       sprite: Fractions/Clothing/German/Shoes/army_black.rsi
     - type: Clothing
       sprite: Fractions/Clothing/German/Shoes/army_black.rsi
+    - type: NoSlip
 

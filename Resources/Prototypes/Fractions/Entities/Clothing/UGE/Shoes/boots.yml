@@ -10,6 +10,7 @@
       sprite: Fractions/Clothing/UGE/Shoes/rmc.rsi
     - type: ClothingSlowOnDamageModifier
       modifier: 0.4
+    - type: NoSlip
 
 - type: entity
   parent: ClothingShoesMilitaryBase
