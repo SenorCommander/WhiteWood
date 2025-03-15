@@ -19,8 +19,8 @@
   - type: ExplosionResistance
     damageCoefficient: 0.90
   - type: ClothingSpeedModifier # light armor speed
-    walkModifier: .780
-    sprintModifier: .780
+    walkModifier: .800
+    sprintModifier: .800
 
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
@@ -43,8 +43,8 @@
   - type: ExplosionResistance
     damageCoefficient: 0.50
   - type: ClothingSpeedModifier
-    walkModifier: 0.700
-    sprintModifier: 0.700
+    walkModifier: 0.760
+    sprintModifier: 0.760
 
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
@@ -67,8 +67,8 @@
   - type: ExplosionResistance
     damageCoefficient: 0.40
   - type: ClothingSpeedModifier
-    walkModifier: 0.666
-    sprintModifier: 0.666
+    walkModifier: 0.699
+    sprintModifier: 0.699
 
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
@@ -91,8 +91,8 @@
   - type: ExplosionResistance
     damageCoefficient: 0.40
   - type: ClothingSpeedModifier
-    walkModifier: 0.720
-    sprintModifier: 0.720
+    walkModifier: 0.760
+    sprintModifier: 0.760
 
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
@@ -115,8 +115,8 @@
   - type: ExplosionResistance
     damageCoefficient: 0.80
   - type: ClothingSpeedModifier
-    walkModifier: .780
-    sprintModifier: .780
+    walkModifier: .790
+    sprintModifier: .790
 
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
@@ -139,8 +139,8 @@
   - type: ExplosionResistance
     damageCoefficient: 0.40
   - type: ClothingSpeedModifier
-    walkModifier: 0.740
-    sprintModifier: 0.740
+    walkModifier: 0.760
+    sprintModifier: 0.760
 
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
@@ -163,8 +163,8 @@
   - type: ExplosionResistance
     damageCoefficient: 0.45
   - type: ClothingSpeedModifier
-    walkModifier: 0.740
-    sprintModifier: 0.740
+    walkModifier: 0.760
+    sprintModifier: 0.760
 
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
@@ -187,8 +187,8 @@
   - type: ExplosionResistance
     damageCoefficient: 0.45
   - type: ClothingSpeedModifier
-    walkModifier: 0.770
-    sprintModifier: 0.770
+    walkModifier: 0.780
+    sprintModifier: 0.780
 
 
 - type: entity
@@ -212,8 +212,8 @@
   - type: ExplosionResistance
     damageCoefficient: 0.40
   - type: ClothingSpeedModifier
-    walkModifier: .780
-    sprintModifier: .780
+    walkModifier: .790
+    sprintModifier: .790
 
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]

@@ -48,47 +48,14 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: CMJumpsuitMarineAlpha
-  name: комбинезон отряда Альфы КМП-ОПЗ
+  id: CMJumpsuitMarine
+  name: комбинезон КМП-ОПЗ
   description: униформа сержантов морской пехоты с кевларовым переплетением, испытанная химическими веществами и усиленная электромагнитным излучением.
   components:
     - type: Sprite
-      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/standard/Alpha.rsi
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/standard/standard.rsi
     - type: Clothing
-      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/standard/Alpha.rsi
-
-- type: entity
-  parent: ClothingUniformBase
-  id: CMJumpsuitMarineBravo
-  name: комбинезон отряда Браво КМП-ОПЗ
-  description: униформа сержантов морской пехоты с кевларовым переплетением, испытанная химическими веществами и усиленная электромагнитным излучением.
-  components:
-    - type: Sprite
-      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/standard/Bravo.rsi
-    - type: Clothing
-      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/standard/Bravo.rsi
-
-- type: entity
-  parent: ClothingUniformBase
-  id: CMJumpsuitMarineDelta
-  name: комбинезон отряда Дельты КМП-ОПЗ
-  description: униформа сержантов морской пехоты с кевларовым переплетением, испытанная химическими веществами и усиленная электромагнитным излучением.
-  components:
-    - type: Sprite
-      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/standard/Delta.rsi
-    - type: Clothing
-      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/standard/Delta.rsi
-
-- type: entity
-  parent: ClothingUniformBase
-  id: CMJumpsuitMarineCharlie
-  name: комбинезон отряда Чарли КМП-ОПЗ
-  description: униформа сержантов морской пехоты с кевларовым переплетением, испытанная химическими веществами и усиленная электромагнитным излучением.
-  components:
-    - type: Sprite
-      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/standard/Charlie.rsi
-    - type: Clothing
-      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/standard/Charlie.rsi
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/standard/standard.rsi
 
 #Форма Специалистов
 
@@ -145,14 +112,14 @@
   description: Оперативная форма. Корпус гордится своей формой. В ней есть элементы из легкого кевлара, которые защищают от колющего оружия и пуль.
   components:
     - type: Sprite
-      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/officer_operations.rsi
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/pilot.rsi
     - type: Clothing
-      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/officer_operations.rsi
+      sprite: Fractions/Clothing/UGE/Uniforms/Jumpsuit/pilot.rsi
 
 - type: entity
   parent: ClothingUniformBase
   id: CMJumpsuitSeniorOfficer
-  name: офицерская форма ОПЗ
+  name: комбинезон пилота ОПЗ
   description: Стандартная форма старшего офицерского состава.
   components:
     - type: Sprite

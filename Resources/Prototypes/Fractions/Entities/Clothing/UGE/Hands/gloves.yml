@@ -13,21 +13,6 @@
 
 - type: entity
   parent: ClothingHandsGlovesColorBlack
-  id: ClothingHandsCOGloves
-  name: офицерские перчатки ОПЗ
-  description: Нестандартные перчатки из кевлонового волокна. Они изолированы и имеют сильную броню. Многим могут нравиться эти перчатки, но немногие их недостойны.
-  components:
-  - type: Sprite
-    sprite:  Fractions/Clothing/UGE/Hands/Gloves/officer.rsi
-  - type: Clothing
-    sprite:  Fractions/Clothing/UGE/Hands/Gloves/officer.rsi
-  - type: Insulated
-  - type: Fiber
-    fiberMaterial: fibers-insulative
-
-
-- type: entity
-  parent: ClothingHandsGlovesColorBlack
   id: ClothingHandsField
   name: офицерские перчатки ОПЗ
   description: Нестандартные перчатки из кевлонового волокна. Они изолированы и имеют сильную броню. Многим могут нравиться эти перчатки, но немногие их недостойны.

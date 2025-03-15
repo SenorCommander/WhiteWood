@@ -1,16 +1,5 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
-  id: RMCloak
-  name: Накидка ОПЗ
-  description: Цветная накидка для улучшения дизайна значка 7E, эта накидка может быть двухцветной, что соответствует всем вашим модным предпочтениям. Она также оснащена теплоизоляторами, поэтому ее можно использовать как одеяло.
-  components:
-  - type: Sprite
-    sprite: Fractions/Clothing/UGE/Neck/Cloaks/cape.rsi
-  - type: StealTarget
-    stealGroup: HeadCloak
-
-- type: entity
-  parent: [ClothingNeckBase, BaseCommandContraband]
   id: RMCloakOfficer
   name:  Парадный плащ офицера ОПЗ
   description: Роскошный плащ с украшениями надевают только по особым случаям.
