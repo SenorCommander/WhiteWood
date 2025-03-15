@@ -55,17 +55,6 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadBeretColonel
-  name: берет полковника ОПЗ
-  description: Голубой берет с эмблемой полковника. Синий цвет берета символизирует верность, уверенность и политическую позицию - основные качества настоящего полковника.
-  components:
-    - type: Sprite
-      sprite: Fractions/Clothing/UGE/Head/Hats/berets/beret_col.rsi
-    - type: Clothing
-      sprite: Fractions/Clothing/UGE/Head/Hats/berets/beret_col.rsi
-
-- type: entity
-  parent: ClothingHeadBase
   id: ClothingHeadBeretOfficerWhite
   name: офицерский парадный берет ОПЗ
   description: Белый берет офицерской кокардой. Его ослепительно белый цвет подчеркивает силу и класс.
