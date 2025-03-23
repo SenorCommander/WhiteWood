@@ -1,7 +1,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterArmorHoS]
   id: CMCoatService
-  name: офицерский китель ОПЗ
+  name: офицерский китель
+  suffix: ОПЗ
   description: Служебный китель, который обычно носят офицеры.
   components:
   - type: Sprite
@@ -32,7 +33,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterArmorHoS]
   id: CMCoatGeneral
-  name: генеральский тренч ОПЗ
+  name: генеральский тренч
+  suffix: ОПЗ
   description: Черный плащ-тренч с золотой металлической отделкой. Броский, хорошо защищающий от непогоды. Подойдет королю или, в данном случае, генералу. Имеет довольно много карманов.
   components:
   - type: Sprite
@@ -63,7 +65,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterArmorHoS]
   id: CMCoatSeniorOfficer
-  name: офицерский китель ОПЗ
+  name: офицерский китель
+  suffix: ОПЗ
   description: Служебный китель, который обычно носят старшие офицеры.
   components:
   - type: Sprite
@@ -94,7 +97,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterArmorHoS]
   id: CMCoatSeniorOfficerWhite
-  name: офицерский парадный китель ОПЗ
+  name: офицерский парадный китель
+  suffix: ОПЗ
   description: Парадный китель, который обычно носят старшие офицеры.
   components:
   - type: Sprite

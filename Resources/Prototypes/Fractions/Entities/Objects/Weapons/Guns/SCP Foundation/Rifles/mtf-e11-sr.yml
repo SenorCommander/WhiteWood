@@ -1,8 +1,9 @@
 - type: entity
-  name: винтовка MTF-E11-SR
+  name: E11
   parent: [BaseWeaponRifle, BaseRestrictedContraband]
   id: WeaponRifleMTF-E11-SR
-  description: A high end military grade assault rifle. Uses .20 rifle ammo.
+  suffix: Автомат
+  description: В основном используется мобильными оперативными группами. Использует винтовочные патроны 20-го калибра.
   components:
   - type: Sprite
     sprite: Fractions/Objects/Weapons/Guns/SCP Foundation/Rifles/mtf-e11-sr.rsi

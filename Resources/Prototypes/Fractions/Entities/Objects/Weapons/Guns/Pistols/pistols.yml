@@ -1,8 +1,9 @@
 - type: entity
-  name: mk 32
+  name: MK 32
   parent: [BaseWeaponPistol, BaseRestrictedContraband]
   id: WeaponPistolMk32
-  description: The sidearm of any self respecting officer.     Comes in .45 magnum, the lord's caliber.
+  suffix: Пистолет
+  description: Достаточно редкая и дорогая модель пистолета типа MK. Корпус выполен из платины. Использует 45-м калибр "магнум".
   components:
   - type: Sprite
     sprite: Fractions\Objects\Weapons\Guns\Pistols\mk32.rsi

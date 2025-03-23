@@ -1,7 +1,8 @@
 - type: entity
   parent: [ClothingEyesBase, BaseCommandContraband]
   id: ClothingEyesGlassesSmartBallisticSCP
-  name: визор мобильной оперативной группы
+  name: визор
+  suffix: SCP
   description: Усовершенствованные баллистическиее очки, которые обеспечивают защиту и выводят информацию о класе и уровне доступа персонала.
   components:
   - type: Sprite

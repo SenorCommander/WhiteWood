@@ -10,17 +10,18 @@
     attackRate: 1.2
     damage:
       types:
-        Slash: 16 #cmon, it has to be at least BETTER than the rest.
+        Slash: 30
+        Piercing: 20
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Reflect
-    reflectProb: .1
+    reflectProb: 0.6
     spread: 90
   - type: Item
     sprite: Fractions/Objects/Weapons/Melee/rapier.rsi
   - type: Tag
     tags:
-    - CaptainSabre
+    - Rapier
   - type: DisarmMalus
   - type: SentienceTarget
     flavorKind: station-event-random-sentience-flavor-inanimate

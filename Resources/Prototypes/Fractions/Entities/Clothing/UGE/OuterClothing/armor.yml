@@ -1,7 +1,8 @@
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
   id: CMArmorLight
-  name: легкая броня M3 КМП-ОПЗ
+  name: легкая броня M3
+  suffix: ОПЗ
   description: Облегченная, урезанная версия стандартной брони модели M3. Она жертвует прочностью ради большей скорости.
   components:
   - type: Sprite
@@ -25,7 +26,8 @@
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
   id: CMArmorMedium
-  name: средняя броня M3 КМП-ОПЗ
+  name: средняя броня M3
+  suffix: ОПЗ
   description: Нагрудник стандартного образца M3. Защищает грудь от баллистических пуль, предметов с холодным оружием и несчастных случаев.
   components:
   - type: Sprite
@@ -49,7 +51,8 @@
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
   id: CMArmorHeavy
-  name: тяжелая броня M3 КМП-ОПЗ
+  name: тяжелая броня M3
+  suffix: ОПЗ
   description: Являясь более тяжелой версией стандартной брони модели M3, эта броня в первую очередь предназначена для защиты от баллистических, взрывных и внутренних повреждений, однако ее недостатком является увеличенный объем и, следовательно, сниженная скорость передвижения, а также дополнительная защита от стандартных ударов тупым предметом и биологических угроз.
   components:
   - type: Sprite
@@ -73,7 +76,8 @@
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
   id: CMArmorM3SPEC
-  name: броня M3-SPEC КМП-ОПЗ
+  name: броня M3-SPEC
+  suffix: ОПЗ
   description: Серьезная модификация стандартной брони M3. Выполнен в приятных зеленых тонах. Защищает грудь от баллистических пуль, предметов с холодным оружием и несчастных случаев. До краев наполненный прокладками, покрытием и всеми видами баллистической защиты.
   components:
   - type: Sprite
@@ -97,7 +101,8 @@
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
   id: CMArmorGhilleM45
-  name: камуфляжная броня M-45 КМП-ОПЗ
+  name: камуфляжная броня M-45
+  suffix: ОПЗ
   description: Легкий маскировочный костюм ghillie, используемый снайперами UNCONC в разведывательных миссиях. Очень легкий, но практически не защищает.
   components:
   - type: Sprite
@@ -121,7 +126,8 @@
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
   id: CMArmorM4
-  name: броня M4 КМП-ОПЗ
+  name: броня M4
+  suffix: ОПЗ
   description: Изготовленный на заказ комплект брони и тщательно продуманный гибрид брони. Прочный, но в то же время маневренный.
   components:
   - type: Sprite
@@ -145,7 +151,8 @@
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
   id: CMArmorOfficer
-  name: офицерская броня M3 КМП-ОПЗ
+  name: офицерская броня M3
+  suffix: ОПЗ
   description: Хорошо сделанный бронекостюм модели M3, который обычно находится в руках офицеров. Полезен для того, чтобы ваши люди знали, кто главный в бою.
   components:
   - type: Sprite
@@ -169,7 +176,8 @@
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
   id: CMArmorOfficerBlack
-  name: офицерская броня M3 КМП-ОПЗ
+  name: офицерская броня M3
+  suffix: ОПЗ
   description: Хорошо сделанный бронекостюм модели M3, который обычно находится в руках офицеров более высокого ранга. Полезен для того, чтобы ваши люди знали, кто главный в бою.
   components:
   - type: Sprite
@@ -194,7 +202,8 @@
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
   id: CMArmorField_commander
-  name: броня полевого командира ОПЗ
+  name: броня полевого командира
+  suffix: ОПЗ
   description: Изготовленный на заказ комплект специальный комплект брони. Разработан специально для высокопоставленных офицеров, сотрудников службы безопасности и корпоративных наемников. Этот костюм выглядит так, как будто принадлежит офицеру высокого ранга.
   components:
   - type: Sprite
@@ -218,7 +227,8 @@
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
   id: CMArmorLightЕxoskeletonVA
-  name: прототип экзоскелета КМП-ОПЗ версии А
+  name: прототип экзоскелета версии А
+  suffix: ОПЗ
   description: Обладает низким уровнем защиты. Этот комплект помечен как "Легкий Стрелковый". Используется теми, кто отдает предпочтение более быстрому передвижению, а не защите, например скаутами или разведчиками.
   components:
   - type: Sprite
@@ -244,7 +254,8 @@
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
   id: CMArmorLightЕxoskeletonVC
-  name: прототип экзоскелета КМП-ОПЗ версии С
+  name: прототип экзоскелета версии С
+  suffix: ОПЗ
   description: Обладает низким уровнем защиты. Этот комплект помечен как "Тыловой". Используется теми, кто отдает предпочтение более быстрому передвижению, а не защите, например штаб-офицерами.
   components:
   - type: Sprite

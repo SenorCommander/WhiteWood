@@ -1,7 +1,8 @@
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
   id: ClothingOuterArmorSentrySCP
-  name: бронежилет охраны комплекса
+  name: бронежилет
+  suffix: SCP
   description: Применяется в комендантском отряде службы безопасности Фонда.
   components:
   - type: Sprite
@@ -21,7 +22,8 @@
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing]
   id: ClothingOuterArmorMTFSCP
-  name: бронежилет мобильной оперативной группы
+  name: штурмовой бронежилет
+  suffix: SCP
   description: Бронежилет, используемых бойцами МОГ Фонда SCP. Обезопасить! Удержать! Сохранить!
   components:
   - type: Sprite

@@ -1,7 +1,8 @@
 - type: entity
   parent: ClothingMaskPullableBase
   id: CMMaskGas
-  name: противогаз КМП-ОПЗ
+  name: противогаз
+  suffix: ОПЗ
   description: Закрывающая лицо маска, которую можно подключить к системе подачи воздуха. Очищает воздух от вредных газов.
   components:
   - type: Sprite
@@ -30,7 +31,8 @@
 - type: entity
   parent: ClothingMaskPullableBase
   id: CMMaskGasFieldСommander
-  name: противогаз полевого командира ОПЗ
+  name: противогаз полевого командира
+  suffix: ОПЗ
   description: Закрывающая лицо маска, которую можно подключить к системе подачи воздуха. Очищает воздух от вредных газов.
   components:
   - type: Sprite
@@ -59,7 +61,8 @@
 - type: entity
   parent: ClothingMaskPullableBase
   id: RMCMaskRebreather
-  name: респиратор КМП-ОПЗ
+  name: респиратор
+  suffix: ОПЗ
   description: Плотно прилегающее устройство, которое мгновенно нагревает или охлаждает воздух при вдохе, чтобы не повредить ваши легкие.
   components:
   - type: Sprite

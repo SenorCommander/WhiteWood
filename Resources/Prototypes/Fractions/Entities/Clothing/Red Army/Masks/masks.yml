@@ -1,0 +1,26 @@
+- type: entity
+  parent: ClothingMaskGas
+  id: ClothingOldMaskGas
+  name: старый противогаз
+  description: На каждый газ есть противогаз!
+  components:
+  - type: Sprite
+    sprite: Fractions/Clothing/Red Army/Mask/old_gas_mask.rsi
+  - type: Clothing
+    sprite: Fractions/Clothing/Red Army/Mask/old_gas_mask.rsi
+  - type: IngestionBlocker
+  - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingMaskGas
+  id: ClothingSpecialMaskGas
+  name: старый противогаз
+  description: Перед хорошим человеком хочется снять шляпу, перед плохим — надеть противогаз.
+  components:
+  - type: Sprite
+    sprite: Fractions/Clothing/Red Army/Mask/special_gas_mask.rsi
+  - type: Clothing
+    sprite: Fractions/Clothing/Red Army/Mask/special_gas_mask.rsi
+  - type: IngestionBlocker
+  - type: IdentityBlocker
+

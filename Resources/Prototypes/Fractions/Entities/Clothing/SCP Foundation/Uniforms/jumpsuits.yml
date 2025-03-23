@@ -2,6 +2,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSentrySCP
   name: форма охраны комплекса
+  suffix: SCP
   description: Серая форма охраны коплекса, носитель этой формы отвечает для борьбы с конкретными угрозами или ситуациями на территории комплекса.
   components:
     - type: Sprite
@@ -13,6 +14,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMTFSCP
   name: форма мобильной оперативной группы
+  suffix: SCP
   description: Синяя форма мобильной оперативной группы, используемых бойцами МОГ Фонда SCP. Обезопасить! Удержать! Сохранить!
   components:
     - type: Sprite

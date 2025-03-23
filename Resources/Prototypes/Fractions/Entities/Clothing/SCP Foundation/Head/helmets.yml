@@ -1,7 +1,8 @@
 - type: entity
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetSentrySCP
-  name: шлем охраны комплекса
+  name: шлем
+  suffix: SCP
   description: Он обеспечивает умеренную защиту от большинства форм атак и выдаётся всем офицерам безопасности.
   components:
   - type: Sprite
@@ -12,7 +13,8 @@
 - type: entity
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetMTFSCP
-  name: шлем мобильной оперативной группы
+  name: штурмовой шлем
+  suffix: SCP
   description: Он обеспечивает умеренную защиту от большинства форм атак, используемых бойцами МОГ Фонда SCP. Обезопасить! Удержать! Сохранить!
   components:
   - type: Sprite
