@@ -1,0 +1,22 @@
+- type: job
+  id: AlfaMarine
+  name: job-name-alfa-marine
+  description: job-description-alfamarine
+  playTimeTracker: JobAlfaMarine
+  startingGear: AlfaMarineGear
+  icon: "JobIconAlfaMarine"
+  supervisors: job-supervisors-commander
+  canBeAntag: false
+  access:
+    - SquadAlpha
+    - Maintenance
+  special:
+  - !type:AddComponentSpecial
+
+
+- type: startingGear
+  id: AlfaMarineGear
+  equipment:
+    jumpsuit: UGEJumpsuitMarineAlpha
+    id: ARiflemanIDCard
+    pocket1: EmergencyMedipen

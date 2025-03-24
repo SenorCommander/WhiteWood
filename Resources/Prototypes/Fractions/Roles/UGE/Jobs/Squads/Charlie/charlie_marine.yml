@@ -1,0 +1,23 @@
+- type: job
+  id: CharlieMarine
+  name: job-name-charlie-marine
+  description: job-description-charlieamarine
+  playTimeTracker: JobCharlieMarine
+  startingGear: CharlieMarineGear
+  icon: "JobIconCharlieMarine"
+  supervisors: job-supervisors-commander
+  canBeAntag: false
+  access:
+    - Maintenance
+    - SquadCharlie
+  special:
+  - !type:AddComponentSpecial
+
+
+
+- type: startingGear
+  id: CharlieMarineGear
+  equipment:
+    jumpsuit: UGEJumpsuitMarineCharlie
+    id: CRiflemanIDCard
+    pocket1: EmergencyMedipen

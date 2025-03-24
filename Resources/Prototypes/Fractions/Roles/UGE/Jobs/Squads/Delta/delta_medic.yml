@@ -1,0 +1,27 @@
+- type: job
+  id: DeltaMedic
+  name: job-name-delta-medic
+  description: job-description-deltamedic
+  playTimeTracker: JobDeltaMedic
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobMilitaryMedic
+      time: 10800 # 3 hrs
+  startingGear: DeltaMedicGear
+  icon: "JobIconDeltaMedic"
+  supervisors: job-supervisors-commander
+  canBeAntag: false
+  accessGroups:
+    - SquadDeltaMedic
+  special:
+  - !type:AddComponentSpecial
+
+
+
+- type: startingGear
+  id: DeltaMedicGear
+  equipment:
+    jumpsuit: UGEJumpsuitMarineDelta
+    id: DMedicIDCard
+    ears: ClothingHeadsetMarineDelta
+    pocket1: EmergencyMedipen

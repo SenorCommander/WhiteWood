@@ -1,0 +1,27 @@
+- type: job
+  id: AlfaEngineer
+  name: job-name-alfa-engineer
+  description: job-description-alfaengineer
+  playTimeTracker: JobAlfaEngineer
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobShipsEngineer
+      time: 10800 # 3 hrs
+  startingGear: AlfaEngineerGear
+  icon: "JobIconAlfaEngineer"
+  supervisors: job-supervisors-commander
+  canBeAntag: false
+  access:
+    - SquadAlpha
+    - Maintenance
+    - Engineering
+  special:
+  - !type:AddComponentSpecial
+
+
+- type: startingGear
+  id: AlfaEngineerGear
+  equipment:
+    jumpsuit: UGEJumpsuitEngineer
+    id: AEngineerIDCard
+    pocket1: EmergencyMedipen

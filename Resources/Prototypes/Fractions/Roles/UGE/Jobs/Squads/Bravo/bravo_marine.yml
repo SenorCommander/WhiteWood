@@ -1,0 +1,22 @@
+- type: job
+  id: BravoMarine
+  name: job-name-bravo-marine
+  description: job-description-bravomarine
+  playTimeTracker: JobBravoMarine
+  startingGear: BravoMarineGear
+  icon: "JobIconBravoMarine"
+  supervisors: job-supervisors-commander
+  canBeAntag: false
+  access:
+    - SquadBravo
+    - Maintenance
+  special:
+  - !type:AddComponentSpecial
+
+
+- type: startingGear
+  id: BravoMarineGear
+  equipment:
+    jumpsuit: UGEJumpsuitMarineBravo
+    id: BRiflemanIDCard
+    pocket1: EmergencyMedipen

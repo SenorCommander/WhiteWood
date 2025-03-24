@@ -1,0 +1,39 @@
+- type: job
+  id: CharlieCommander
+  name: job-name-charlie-commander
+  description: job-description-charliecommander
+  playTimeTracker: JobCharlieCommander
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: EngineersGarrison
+      time: 18000 # 5 hrs
+    - !type:DepartmentTimeRequirement
+      department: SpecialistsGarrison
+      time: 18000 # 5 hrs
+    - !type:DepartmentTimeRequirement
+      department: MedicsGarrison
+      time: 18000 # 5 hrs
+  startingGear: CharlieCommanderGear
+  icon: "JobIconCharlieCommander"
+  supervisors: job-supervisors-field-commander
+  canBeAntag: false
+  access:
+    - Maintenance
+    - SquadCharlie
+    - SquadLeader
+    - SquadSpecialist
+    - Engineering
+    - Command
+    - Medical
+  special:
+  - !type:AddComponentSpecial
+
+
+- type: startingGear
+  id: CharlieCommanderGear
+  equipment:
+    jumpsuit: UGEJumpsuitSquadLeaderCharlie
+    id: CCommanderIDCard
+    eyes: ClothingEyesGlassesRPG
+    pocket1: EmergencyMedipen
+    shoes: CMBootsBlack

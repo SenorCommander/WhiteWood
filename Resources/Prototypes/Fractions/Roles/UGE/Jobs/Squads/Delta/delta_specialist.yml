@@ -1,0 +1,27 @@
+- type: job
+  id: DeltaSpecialist
+  name: job-name-delta-specialist
+  description: job-description-deltaspecialist
+  playTimeTracker: JobDeltaSpecialist
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: MarinesGarrison
+      time: 54000 # 15 hrs
+  startingGear: DeltaSpecialistGear
+  icon: "JobIconDeltaSpecialist"
+  supervisors: job-supervisors-commander
+  canBeAntag: false
+  access:
+    - Maintenance
+    - SquadDelta
+    - SquadSpecialist
+  special:
+  - !type:AddComponentSpecial
+
+
+- type: startingGear
+  id: DeltaSpecialistGear
+  equipment:
+    jumpsuit: UGEJumpsuitMarineDelta
+    id: DSpecialistsIDCard
+    pocket1: EmergencyMedipen

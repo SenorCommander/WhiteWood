@@ -1,0 +1,34 @@
+- type: job
+  id: SupplyOfficer
+  name: job-name-supplyofficer
+  description: job-description-supplyofficer
+  playTimeTracker: JobSupplyOfficer
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobRigger
+      time: 36000 # 10 hrs
+  startingGear: SupplyOfficerGear
+  icon: "JobIconSupplyOfficer"
+  supervisors: job-supervisors-staff-officer
+  canBeAntag: false
+  access:
+    - Maintenance
+    - Cargo
+    - Quartermaster
+    - Command
+  special:
+  - !type:AddComponentSpecial
+
+
+- type: startingGear
+  id: SupplyOfficerGear
+  equipment:
+    head: ClothingHeadHatQMsoft
+    jumpsuit: ClothingUniformJumpsuitQM
+    back: ClothingBackpackQuartermasterFilled
+    shoes: ClothingShoesColorBrown
+    ears: ClothingHeadsetQM
+    belt: BoxFolderClipboard
+    pocket1: AppraisalTool
+    pocket2: EmergencyMedipen
+    id: SupplyOfficerIDCard

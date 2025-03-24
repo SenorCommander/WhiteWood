@@ -1,0 +1,39 @@
+- type: job
+  id: BravoCommander
+  name: job-name-bravo-commander
+  description: job-description-bravocommander
+  playTimeTracker: JobBravoCommander
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: EngineersGarrison
+      time: 18000 # 5 hrs
+    - !type:DepartmentTimeRequirement
+      department: SpecialistsGarrison
+      time: 18000 # 5 hrs
+    - !type:DepartmentTimeRequirement
+      department: MedicsGarrison
+      time: 18000 # 5 hrs
+  startingGear: BravoCommanderGear
+  icon: "JobIconBravoCommander"
+  supervisors: job-supervisors-field-commander
+  canBeAntag: false
+  access:
+    - SquadBravo
+    - SquadLeader
+    - SquadSpecialist
+    - Engineering
+    - Maintenance
+    - Command
+    - Medical
+  special:
+  - !type:AddComponentSpecial
+
+
+- type: startingGear
+  id: BravoCommanderGear
+  equipment:
+    jumpsuit: UGEJumpsuitSquadLeaderBravo
+    eyes: ClothingEyesGlassesRPG
+    id: BCommanderIDCard
+    pocket1: EmergencyMedipen
+    shoes: CMBootsBlack

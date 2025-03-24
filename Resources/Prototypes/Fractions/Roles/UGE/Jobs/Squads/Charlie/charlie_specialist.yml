@@ -1,0 +1,27 @@
+- type: job
+  id: CharlieSpecialist
+  name: job-name-charlie-specialist
+  description: job-description-charliespecialist
+  playTimeTracker: JobCharlieSpecialist
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: MarinesGarrison
+      time: 54000 # 15 hrs
+  startingGear: CharlieSpecialistGear
+  icon: "JobIconCharlieSpecialist"
+  supervisors: job-supervisors-commander
+  canBeAntag: false
+  access:
+    - Maintenance
+    - SquadCharlie
+    - SquadSpecialist
+  special:
+  - !type:AddComponentSpecial
+
+
+- type: startingGear
+  id: CharlieSpecialistGear
+  equipment:
+    jumpsuit: UGEJumpsuitMarineCharlie
+    id: CSpecialistsIDCard
+    pocket1: EmergencyMedipen

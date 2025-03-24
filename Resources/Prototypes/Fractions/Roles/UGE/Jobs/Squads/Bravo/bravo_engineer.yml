@@ -1,0 +1,27 @@
+- type: job
+  id: BravoEngineer
+  name: job-name-bravo-engineer
+  description: job-description-bravoengineer
+  playTimeTracker: JobBravoEngineer
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobShipsEngineer
+      time: 10800 # 3 hrs
+  startingGear: BravoEngineerGear
+  icon: "JobIconBravoEngineer"
+  supervisors: job-supervisors-commander
+  canBeAntag: false
+  access:
+    - SquadBravo
+    - Engineering
+    - Maintenance
+  special:
+  - !type:AddComponentSpecial
+
+
+- type: startingGear
+  id: BravoEngineerGear
+  equipment:
+    jumpsuit: UGEJumpsuitEngineer
+    id: BEngineerIDCard
+    pocket1: EmergencyMedipen

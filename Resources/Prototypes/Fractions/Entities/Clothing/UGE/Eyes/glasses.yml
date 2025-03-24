@@ -28,6 +28,7 @@
     - EYES
   - type: ShowJobIcons
   - type: EyeProtection
+  - type: FlashImmunity
 
 - type: entity
   parent: ClothingEyesBase
@@ -43,3 +44,4 @@
     slots:
     - EYES
   - type: EyeProtection
+  - type: FlashImmunity

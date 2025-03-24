@@ -1,0 +1,39 @@
+- type: job
+  id: AlfaCommander
+  name: job-name-alfa-commander
+  description: job-description-alfacommander
+  playTimeTracker: JobAlfaCommander
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: EngineersGarrison
+      time: 18000 # 5 hrs
+    - !type:DepartmentTimeRequirement
+      department: SpecialistsGarrison
+      time: 18000 # 5 hrs
+    - !type:DepartmentTimeRequirement
+      department: MedicsGarrison
+      time: 18000 # 5 hrs
+  startingGear: AlfaCommanderGear
+  icon: "JobIconAlfaCommander"
+  supervisors: job-supervisors-field-commander
+  canBeAntag: false
+  access:
+    - SquadAlpha
+    - SquadLeader
+    - SquadSpecialist
+    - Engineering
+    - Maintenance
+    - Command
+    - Medical
+  special:
+  - !type:AddComponentSpecial
+
+
+- type: startingGear
+  id: AlfaCommanderGear
+  equipment:
+    eyes: ClothingEyesGlassesRPG
+    jumpsuit: UGEJumpsuitSquadLeaderAlpha
+    id: ACommanderIDCard
+    pocket1: EmergencyMedipen
+    shoes: CMBootsBlack

@@ -1,0 +1,32 @@
+- type: job
+  id: MilitaryScientist
+  name: job-name-militaryscientist
+  description: job-description-militaryscientist
+  playTimeTracker: JobMilitaryScientist
+  requirements:
+  - !type:OverallPlaytimeRequirement
+    time: 108000 # 30 hours
+  startingGear: MilitaryScientistGear
+  icon: "JobIconMilitaryScientist"
+  supervisors: job-supervisors-head-operations
+  canBeAntag: false
+  access:
+    - Research
+    - Maintenance
+    - Medical
+    - Chemistry
+  special:
+  - !type:AddComponentSpecial
+
+
+- type: startingGear
+  id: MilitaryScientistGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMilitaryScientist
+    back: ClothingBackpackScience
+    eyes: ClothingEyesGlassesMeson
+    id: MilitaryScientistIDCard
+    ears: ClothingHeadsetAltScience
+    belt: ClothingBeltUtilityEngineering
+    shoes: ClothingShoesColorBrown
+    pocket1: EmergencyMedipen

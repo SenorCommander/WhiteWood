@@ -1,0 +1,30 @@
+- type: job
+  id: MilitaryMainMedic
+  name: job-name-militarymainmedic
+  description: job-description-militarymainmedic
+  playTimeTracker: JobMilitaryMainMedic
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobMilitaryMedic
+      time: 36000 # 10 hrs
+  startingGear: MilitaryMainMedicGear
+  icon: "JobIconMilitaryMainMedic"
+  supervisors: job-supervisors-staff-officer
+  canBeAntag: false
+  accessGroups:
+    - MedicalOfficer
+  special:
+  - !type:AddComponentSpecial
+
+
+- type: startingGear
+  id: MilitaryMainMedicGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCMO
+    back: ClothingBackpackCMOFilled
+    shoes: ClothingShoesColorBrown
+    outerClothing: ClothingOuterCoatLabCmo
+    ears: ClothingHeadsetCMO
+    id: MilitaryMainMedicIDCard
+    belt: ClothingBeltMedicalFilled
+    pocket1: EmergencyMedipen

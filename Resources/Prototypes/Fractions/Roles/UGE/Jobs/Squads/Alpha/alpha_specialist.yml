@@ -1,0 +1,27 @@
+- type: job
+  id: AlfaSpecialist
+  name: job-name-alfa-specialist
+  description: job-description-alfaspecialist
+  playTimeTracker: JobAlfaSpecialist
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: MarinesGarrison
+      time: 54000 # 15 hrs
+  startingGear: AlfaSpecialistGear
+  icon: "JobIconAlfaSpecialist"
+  supervisors: job-supervisors-commander
+  canBeAntag: false
+  access:
+    - SquadAlpha
+    - Maintenance
+    - SquadSpecialist
+  special:
+  - !type:AddComponentSpecial
+
+
+- type: startingGear
+  id: AlfaSpecialistGear
+  equipment:
+    jumpsuit: UGEJumpsuitMarineAlpha
+    id: ASpecialistsIDCard
+    pocket1: EmergencyMedipen

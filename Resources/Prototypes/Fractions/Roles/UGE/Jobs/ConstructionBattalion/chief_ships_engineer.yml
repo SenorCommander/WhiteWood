@@ -1,0 +1,35 @@
+- type: job
+  id: ChiefShipsEngineer
+  name: job-name-chiefshipsengineer
+  description: job-description-chiefshipsengineer
+  playTimeTracker: JobChiefShipsEngineer
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobShipsEngineer
+      time: 36000 # 10 hrs
+  startingGear: ChiefShipsEngineerGear
+  icon: "JobIconChiefShipsEngineer"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  access:
+    - Maintenance
+    - Atmospherics
+    - Engineering
+    - Command
+    - ChiefEngineer
+  special:
+  - !type:AddComponentSpecial
+
+
+- type: startingGear
+  id: ChiefShipsEngineerGear
+  equipment:
+    head: ClothingHeadHatHardhatWhite
+    jumpsuit: ClothingUniformJumpsuitChiefEngineer
+    back: ClothingBackpackChiefEngineerFilled
+    shoes: ClothingShoesColorBrown
+    eyes: ClothingEyesGlassesMeson
+    ears: ClothingHeadsetCE
+    belt: ClothingBeltUtilityEngineering
+    id: ChiefShipsEngineerIDCard
+    pocket1: EmergencyMedipen

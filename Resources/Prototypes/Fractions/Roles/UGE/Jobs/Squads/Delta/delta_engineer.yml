@@ -1,0 +1,27 @@
+- type: job
+  id: DeltaEngineer
+  name: job-name-delta-engineer
+  description: job-description-deltaengineer
+  playTimeTracker: JobDeltaEngineer
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobShipsEngineer
+      time: 10800 # 3 hrs
+  startingGear: DeltaEngineerGear
+  icon: "JobIconDeltaEngineer"
+  supervisors: job-supervisors-commander
+  canBeAntag: false
+  access:
+    - Maintenance
+    - SquadDelta
+    - Engineering
+  special:
+  - !type:AddComponentSpecial
+
+
+- type: startingGear
+  id: DeltaEngineerGear
+  equipment:
+    jumpsuit: UGEJumpsuitEngineer
+    id: DEngineerIDCard
+    pocket1: EmergencyMedipen
