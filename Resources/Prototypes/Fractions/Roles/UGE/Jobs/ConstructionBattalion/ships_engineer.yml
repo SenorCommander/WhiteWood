@@ -3,19 +3,6 @@
   name: job-name-shipsengineer
   description: job-description-shipsengineer
   playTimeTracker: JobShipsEngineer
-  requirements:
-    - !type:RoleTimeRequirement
-      role: JobAlfaMarine
-      time: 0
-    - !type:RoleTimeRequirement
-      role: JobDeltaMarine
-      time: 0
-    - !type:RoleTimeRequirement
-      role: JobBravoMarine
-      time: 0
-    - !type:RoleTimeRequirement
-      role: JobCharlieMarine
-      time: 0
   startingGear: ShipsEngineerGear
   icon: "JobIconShipsEngineer"
   supervisors: job-supervisors-centcom

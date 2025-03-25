@@ -3,10 +3,6 @@
   name: job-name-delta-specialist
   description: job-description-deltaspecialist
   playTimeTracker: JobDeltaSpecialist
-  requirements:
-    - !type:DepartmentTimeRequirement
-      department: MarinesGarrison
-      time: 54000 # 15 hrs
   startingGear: DeltaSpecialistGear
   icon: "JobIconDeltaSpecialist"
   supervisors: job-supervisors-commander

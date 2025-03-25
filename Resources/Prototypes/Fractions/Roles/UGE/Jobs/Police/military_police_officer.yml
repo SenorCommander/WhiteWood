@@ -3,10 +3,6 @@
   name: job-name-militarypoliceofficer
   description: job-description-militarypoliceofficer
   playTimeTracker: JobMilitaryPoliceOfficer
-  requirements:
-    - !type:DepartmentTimeRequirement
-      department: MilitaryPolice
-      time: 36000 # 10 hrs
   startingGear: MilitaryPoliceOfficerGear
   icon: "JobIconMilitaryPoliceOfficer"
   supervisors: job-supervisors-staff-officer

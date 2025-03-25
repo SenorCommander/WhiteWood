@@ -3,19 +3,6 @@
   name: job-name-militarymedic
   description: job-description-militarymedic
   playTimeTracker: JobMilitaryMedic
-  requirements:
-    - !type:RoleTimeRequirement
-      role: JobAlfaMarine
-      time: 0
-    - !type:RoleTimeRequirement
-      role: JobDeltaMarine
-      time: 0
-    - !type:RoleTimeRequirement
-      role: JobBravoMarine
-      time: 0
-    - !type:RoleTimeRequirement
-      role: JobCharlieMarine
-      time: 0
   startingGear: MilitaryMedicGear
   icon: "JobIconMilitaryMedic"
   supervisors: job-supervisors-main-medic

@@ -3,10 +3,6 @@
   name: job-name-charlie-medic
   description: job-description-charliemedic
   playTimeTracker: JobCharlieMedic
-  requirements:
-    - !type:RoleTimeRequirement
-      role: JobMilitaryMedic
-      time: 10800 # 3 hrs
   startingGear: CharlieMedicGear
   icon: "JobIconCharlieMedic"
   supervisors: job-supervisors-commander

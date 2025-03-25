@@ -3,10 +3,6 @@
   name: job-name-supplyofficer
   description: job-description-supplyofficer
   playTimeTracker: JobSupplyOfficer
-  requirements:
-    - !type:RoleTimeRequirement
-      role: JobRigger
-      time: 36000 # 10 hrs
   startingGear: SupplyOfficerGear
   icon: "JobIconSupplyOfficer"
   supervisors: job-supervisors-staff-officer

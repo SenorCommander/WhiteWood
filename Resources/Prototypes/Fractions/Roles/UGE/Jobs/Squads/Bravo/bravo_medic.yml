@@ -3,10 +3,6 @@
   name: job-name-bravo-medic
   description: job-description-bravomedic
   playTimeTracker: JobBravoMedic
-  requirements:
-    - !type:RoleTimeRequirement
-      role: JobMilitaryMedic
-      time: 10800 # 3 hrs
   startingGear: BravoMedicGear
   icon: "JobIconBravoMedic"
   supervisors: job-supervisors-commander

@@ -3,10 +3,6 @@
   name: Полевой командир
   description: Капитан
   playTimeTracker: JobFieldCommander
-  requirements:
-  - !type:DepartmentTimeRequirement
-    department: CommandersGarrisons
-    time: 36000 # 10 hours
   startingGear: FieldCommanderGear
   icon: "JobIconFieldCommander"
   supervisors: job-supervisors-head-operations

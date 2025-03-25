@@ -3,10 +3,6 @@
   name: job-name-alfa-medic
   description: job-description-alfamedic
   playTimeTracker: JobAlfaMedic
-  requirements:
-    - !type:RoleTimeRequirement
-      role: JobMilitaryMedic
-      time: 10800 # 3 hrs
   startingGear: AlfaMedicGear
   icon: "JobIconAlfaMedic"
   supervisors: job-supervisors-commander

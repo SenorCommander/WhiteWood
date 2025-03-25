@@ -3,10 +3,6 @@
   name: job-name-bravo-specialist
   description: job-description-bravospecialist
   playTimeTracker: JobBravoSpecialist
-  requirements:
-    - !type:DepartmentTimeRequirement
-      department: MarinesGarrison
-      time: 54000 # 15 hrs
   startingGear: BravoSpecialistGear
   icon: "JobIconBravoSpecialist"
   supervisors: job-supervisors-commander

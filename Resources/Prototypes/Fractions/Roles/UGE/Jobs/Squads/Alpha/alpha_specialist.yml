@@ -3,10 +3,6 @@
   name: job-name-alfa-specialist
   description: job-description-alfaspecialist
   playTimeTracker: JobAlfaSpecialist
-  requirements:
-    - !type:DepartmentTimeRequirement
-      department: MarinesGarrison
-      time: 54000 # 15 hrs
   startingGear: AlfaSpecialistGear
   icon: "JobIconAlfaSpecialist"
   supervisors: job-supervisors-commander

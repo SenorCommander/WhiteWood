@@ -3,10 +3,6 @@
   name: job-name-bravo-engineer
   description: job-description-bravoengineer
   playTimeTracker: JobBravoEngineer
-  requirements:
-    - !type:RoleTimeRequirement
-      role: JobShipsEngineer
-      time: 10800 # 3 hrs
   startingGear: BravoEngineerGear
   icon: "JobIconBravoEngineer"
   supervisors: job-supervisors-commander

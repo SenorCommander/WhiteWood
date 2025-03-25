@@ -3,10 +3,6 @@
   name: job-name-militarymainmedic
   description: job-description-militarymainmedic
   playTimeTracker: JobMilitaryMainMedic
-  requirements:
-    - !type:RoleTimeRequirement
-      role: JobMilitaryMedic
-      time: 36000 # 10 hrs
   startingGear: MilitaryMainMedicGear
   icon: "JobIconMilitaryMainMedic"
   supervisors: job-supervisors-staff-officer

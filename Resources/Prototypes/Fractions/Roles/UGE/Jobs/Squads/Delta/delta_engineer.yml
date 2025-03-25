@@ -3,10 +3,6 @@
   name: job-name-delta-engineer
   description: job-description-deltaengineer
   playTimeTracker: JobDeltaEngineer
-  requirements:
-    - !type:RoleTimeRequirement
-      role: JobShipsEngineer
-      time: 10800 # 3 hrs
   startingGear: DeltaEngineerGear
   icon: "JobIconDeltaEngineer"
   supervisors: job-supervisors-commander

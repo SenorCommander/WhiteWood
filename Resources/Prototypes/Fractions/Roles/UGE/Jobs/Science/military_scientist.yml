@@ -3,9 +3,6 @@
   name: job-name-militaryscientist
   description: job-description-militaryscientist
   playTimeTracker: JobMilitaryScientist
-  requirements:
-  - !type:OverallPlaytimeRequirement
-    time: 108000 # 30 hours
   startingGear: MilitaryScientistGear
   icon: "JobIconMilitaryScientist"
   supervisors: job-supervisors-head-operations

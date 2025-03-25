@@ -3,10 +3,6 @@
   name: job-name-charlie-specialist
   description: job-description-charliespecialist
   playTimeTracker: JobCharlieSpecialist
-  requirements:
-    - !type:DepartmentTimeRequirement
-      department: MarinesGarrison
-      time: 54000 # 15 hrs
   startingGear: CharlieSpecialistGear
   icon: "JobIconCharlieSpecialist"
   supervisors: job-supervisors-commander

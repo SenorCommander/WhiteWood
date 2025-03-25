@@ -3,10 +3,6 @@
   name: job-name-chiefshipsengineer
   description: job-description-chiefshipsengineer
   playTimeTracker: JobChiefShipsEngineer
-  requirements:
-    - !type:RoleTimeRequirement
-      role: JobShipsEngineer
-      time: 36000 # 10 hrs
   startingGear: ChiefShipsEngineerGear
   icon: "JobIconChiefShipsEngineer"
   supervisors: job-supervisors-centcom

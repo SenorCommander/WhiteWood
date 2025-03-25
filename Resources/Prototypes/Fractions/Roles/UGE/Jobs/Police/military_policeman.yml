@@ -3,9 +3,6 @@
   name: Военный полицейский
   description: Поддерживать исполнение военного закона.
   playTimeTracker: JobMilitaryPoliceman
-  requirements:
-  - !type:OverallPlaytimeRequirement
-      time: 36000 # 10 hrs
   startingGear: MilitaryPolicemanGear
   icon: "JobIconMilitaryPoliceman"
   supervisors: job-supervisors-police-officer
